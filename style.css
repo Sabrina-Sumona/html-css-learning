@@ -1,0 +1,182 @@
+p{
+    text-align: justify;
+    color: rgb(1, 1, 71);
+    font-size: 24px;
+    background-color: darkcyan;
+}
+/* para space starting & line spacing*/
+#ind{
+    text-indent: 24px;
+    line-height: 48px;
+}
+/* letter spacing */
+#sp{
+    letter-spacing: 12px;
+}
+/* rgba(red in 255, green in 255, blue in 255, opacity in 1) */
+h1,h2,h3{
+    text-align: center;
+    color: rgb(73, 0, 116);
+    font-size: 48px;
+    background-color: rgba(87, 154, 216,0.89);
+    outline: solid rgb(79, 1, 95) 20px;
+    text-shadow: 4px 2px black;
+    font-family: 'Lobster', cursive;
+}
+/* text decorate & link as button */
+a{
+    display: block;
+    margin: auto;
+    width: 250px;
+    border-radius: 15px 15px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(22, 1, 78);
+    font-size: 48px;
+    background-color: rgb(98, 164, 240);
+}
+/* change if mouse comes above */
+a:hover{
+    color: rgb(170, 147, 233);
+    background-color: rgb(61, 84, 110);
+}
+/* change if not visited */
+a:list{
+    color: rgb(112, 79, 204);
+    background-color: rgb(61, 84, 110);
+}
+/* change if visited */
+a:visited{
+    color: rgb(0, 0, 0);
+    background-color: rgb(61, 84, 110);
+}
+/* change if clicked */
+a:checked{
+    color: rgb(236, 236, 236);
+    background-color: rgb(61, 84, 110);
+}
+table{
+    margin: auto;
+    background-color: rgb(10, 63, 43);
+}
+table:hover{
+    opacity: 0.78;
+}
+td{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    background-color: rgb(243, 214, 241);
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    margin: auto;
+}
+th{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    background-color: rgb(92, 174, 221);
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    margin: auto;
+}
+caption{
+    text-align: center;
+    color: rgb(77, 3, 3);
+    font-size: 28px;
+    background-color: rgb(175, 241, 158);
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+}
+ul,ol{
+    text-align: justify;
+    color: rgb(1, 71, 39);
+    font-size: 28px;
+    background-color: rgb(117, 128, 226);
+    padding: 80px;
+    width: 10%;
+    margin: auto;
+}
+/* child & parent */
+/* ancestor: upper level & descendant: lower level */
+/* ' ' for ancestor & descendant, '>' for chil & parent, '~' for all siblings, '+' for only near siblings  */
+ol li{
+    color: rgb(200, 250, 227);
+}
+ol a{
+    margin: 2px;
+}
+ul li{
+    padding: 25px;
+    background-color: rgb(161, 161, 167);
+}
+/* invisible & seems as delete*/
+.inv{
+    display: none;
+}
+/* invisible & just hidden the content*/
+.voff{
+    visibility: hidden;
+}
+span{
+    background-color: cornflowerblue;
+}
+div{
+    background-color: darkkhaki;
+}
+/* id */
+#special{
+    color: darkslategrey;
+    background-color: rgb(241, 170, 214);
+}
+/* class */
+.simple{
+    color: floralwhite;
+    background-color: green;
+}
+form{
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    border: solid rgb(3, 112, 57) 25px;
+    background-color: rgb(103, 165, 235);
+    padding: 10px;
+    outline: solid olivedrab 10px;
+}
+/* inline making */
+input{
+    display: inline-block;
+    text-align: justify;
+    margin: 2px;
+    padding: 2px;
+}
+body{
+    background-image: url(res_fold/images/background.jpg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: sroll;
+    font-family: 'Lobster', cursive;
+    font-family: 'Playfair Display', serif;
+}
+
+i.fas{
+    color: rgb(17, 0, 255);
+}
+i.fas.fa-heart{
+    color: red;
+}
+i.fas.fa-coffee{
+    color: rgb(63, 7, 29);
+}
+#stick{
+    color: blueviolet;
+    background-color: skyblue;
+    position: sticky;
+    padding: 25px;
+    top: 0;
+    text-align: center;
+    opacity: 0.75;
+}

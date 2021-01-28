@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RWD</title>
+    <style>
+        /* for all use '*' */
+        *{
+            box-sizing: border-box;
+        }
+        .header{
+            border: 2px solid black;
+            padding: 10px;
+        }
+        /* float */
+        .left{
+            border: 2px solid rgb(241, 0, 0);
+            float: left;
+            width: 30%;
+            padding: 10px;
+        }
+        .main{
+            border: 2px solid rgb(0, 110, 9);
+            float: right;
+            width: 70%;
+            padding: 10px;
+        }
+        /* min-width is appicable for large screen and max-width is appicable for small screen*/
+       @media only screen and (min-width: 600px){
+           body{
+               background-image: url(res_fold/images/background.jpg.jpg);
+               background-size: contain;
+               background-repeat: no-repeat;
+           }
+       }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>this is heading</h1>
+    </div>
+    <div class="left">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ullam rem enim recusandae doloribus delectus beatae unde quaerat dolores asperiores at voluptate, officiis voluptatem quos necessitatibus eos eligendi in doloremque. Est, laboriosam deleniti? Praesentium blanditiis modi quae cumque impedit accusamus vel ipsam ex quo cupiditate numquam eveniet, dolor natus rem.
+    </div>
+    <div class="main">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, possimus nam aperiam quo consequatur, provident libero temporibus eveniet veniam vitae dignissimos magnam laborum rerum. Dolore omnis beatae voluptatem sed delectus ratione totam illo quaerat ab atque mollitia, quidem nesciunt doloremque quae voluptates accusamus et soluta assumenda accusantium est doloribus illum ducimus quod? Fugit alias vel voluptas, ducimus doloribus deserunt nemo repudiandae molestiae recusandae voluptate sequi assumenda officia vero optio exercitationem perferendis! Architecto atque sunt, perspiciatis repudiandae impedit voluptates dolorem nisi reprehenderit doloribus cupiditate sequi dicta soluta eligendi, quasi voluptas excepturi temporibus est, vel officia doloremque placeat similique deserunt obcaecati. Incidunt?
+    </div>
+</body>
+</html>

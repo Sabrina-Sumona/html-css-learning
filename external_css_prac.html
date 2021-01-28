@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minu's Document</title>
+    <!--LINK WITH EXTERNAL CASCADED FILE-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="linkall.html">Home</a>
+    <h1>My profile</h1>
+    <hr>
+    <p id="ind">My name is Most. Sabrina Naorin Sumona. I am 25 years old. I live in Bangladesh. My fathers Name is Md. Muslem Uddin. My mother's name is Mst. Piyara Begum. I love my country. I love my parents.</p>
+    <!--inline using span & block using paragraph and division-->
+    <span>Most. Sabrina Naorin Sumona</span>
+    <p>Most. Sabrina Naorin Sumona</p>
+    <div>
+        <span id="sp">Most. Sabrina Naorin Sumona</span>
+    </div>
+    <!--id creation-->
+    <p id="special">This is id special</p>
+    <!--class using-->
+    <p class="simple">This is simple class</p>
+    <p class="simple">This is also simple class</p>
+    <button type="button" onclick="myfunction()">Special</button>
+    <script>
+        function myfunction(){
+            document.getElementById("special").innerHTML="This is not simple class. This is a special class";
+        }
+    </script>
+    <!--table creation-->
+    <table>
+        <caption><b>Table 1.1</b></caption>
+        <tr>
+            <th>Serial</th>
+            <th>Subject</th>
+            <th>Marks</th>
+            <th>CGPA</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>SE</td>
+            <td>80</td>
+            <td>4.00</td>
+
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>AI</td>
+            <td>87</td>
+            <td>4.00</td>
+
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>DSD</td>
+            <td rowspan="2">95</td>
+            <td rowspan="2">4.00</td>
+
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>SP</td>
+
+        </tr>
+        <tr>
+            <td style="background-color: rgb(218, 143, 143);" colspan="2">Total</td>
+            <td>357</td>
+            <td>4.00</td>
+
+        </tr>
+
+    </table>
+    <br>
+    <!--Listing (unordered and ordered lists)-->
+    <ul class="voff">
+        <li>Sabrina</li>
+        <li>Naorin</li>
+        <li>Sumona</li>
+        <li>Minu</li>
+        <li>Tinu</li>
+        <li>Sumu</li>
+        <li>Sumi</li>
+        <li>SNS</li>
+        <li>Rotti</li>
+        <li>Tushi</li>
+        <li>Khuki</li>
+        <li>Sona</li>
+        <li>Sonamuni</li>
+    </ul>
+    <!-- alt+click any where to write there also together -->
+    <ol type="i" class="inv">
+        <li>Sabrina</li>
+        <li>Sabrina</li>
+        <li>Sabrina</li>
+        <li>Sabrina</li>
+        <li>Sabrina</li> 
+    </ol>
+    <!-- li*5 to get 5 list items together -->
+    <!-- overflow -->
+    <ol type="a"  style="overflow: auto;">
+        <li>Sabrina</li>
+        <li>Naorin</li>
+        <li>Sumona</li>
+        <li>Minu</li>
+        <li>Tinu</li>
+        <li>Sumu</li>
+        <li>Sumi</li>
+        <li>SNS</li>
+        <li><a href="http:\\facebook.com">go to facebook</a></li>
+        <li>Tushi</li>
+        <li>Khuki</li>
+        <li>Sona</li>
+        <li>Sonamuni</li>  
+    </ol>
+</body>
+</html>

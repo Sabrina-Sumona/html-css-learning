@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>location</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="get_lg">Location</h1>
+    <h1 id="get_lt">Location</h1>
+    <button type="button" onclick="mylocation()">Get location</button>
+    <script>
+        var loc_lg = document.getElementById("get_lg");
+        var loc_lt = document.getElementById("get_lt");
+        function mylocation(){
+            if(navigator.geolocation){
+                navigator.geolocation.getCurrentPosition(findlocation);
+            }
+        }
+        function findlocation(position){
+            loc_lg.innerHTML="longitude :"+position.coords.longitude;
+            loc_lt.innerHTML="latitude :"+position.coords.latitude;
+
+        }
+    </script>
+</body>
+</html>
